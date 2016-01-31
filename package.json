@@ -1,0 +1,17 @@
+{
+  "name": "elm-time",
+  "version": "1.0.0",
+  "description": "Using time in Elm",
+  "main": "dist/elm.compiled.js",
+  "scripts": {
+    "elm": "elm",
+    "watch": "chokidar '**/*.elm' -c 'elm make Main.elm --output dist/elm.compiled.js --warn'"
+  },
+  "author": "Maximilian Hoffmann",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^1.4.2",
+    "chokidar-cli": "^1.2.0",
+    "elm": "^0.16.0"
+  }
+}
